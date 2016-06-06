@@ -42,3 +42,7 @@ body{
 .dormant: hover{
   color: #ff611c;
 }
+
+tr.spacing{
+  padding-left: 1em;
+}
