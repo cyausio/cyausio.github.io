@@ -43,6 +43,6 @@ body{
   color: #ff611c;
 }
 
-tr.spacing{
-  padding-left: 1em;
+td.spacing{
+  padding-left: 8px;
 }
