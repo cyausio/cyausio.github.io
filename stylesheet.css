@@ -4,12 +4,41 @@ body{
 
 .title{
   background: #ececec;
-  padding-top: 25px;
-  padding-left: 25px;
-  padding-bottom: 20px;
+  padding: 25px;
   position: fixed;
   width: 100%;
   margin-top: -10px;
   margin-left: -10px;
-  margin-bottom: 10px;
+}
+
+.nav table {
+ position: fixed;
+ float: right;
+ right: 20px;
+ top: 25px;
+ border-collapse: collapse;
+ color: white;
+ z-index: 100
+}
+.nav td {
+ width: 60px;
+ height: 45px;
+ border-left: rgba(0,0,0,0) solid 12px;
+}
+
+.active{
+  color: #ff611c;
+  text-decoration: none;
+  font-size:110%;
+  font-family:"montserrat";
+}
+.dormant{
+  text-decoration: none;
+  font-size: 110%;
+  font-family: "montserrat";
+  color: black;
+  transition: 0.3s color;
+}
+.dormant: hover{
+  color: #ff611c;
 }
