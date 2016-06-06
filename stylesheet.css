@@ -12,7 +12,6 @@ body{
 }
 
 .nav table {
- position: fixed;
  float: right;
  right: 20px;
  top: 25px;
