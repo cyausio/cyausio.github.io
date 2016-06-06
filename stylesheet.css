@@ -23,7 +23,7 @@ body{
 .nav td {
  width: 60px;
  height: 45px;
- border-left: rgba(0,0,0,0) solid 12px;
+ border-left: rgba(0,0,0,0) solid 30px;
 }
 
 .active{
@@ -41,8 +41,4 @@ body{
 }
 .dormant: hover{
   color: #ff611c;
-}
-
-td.spacing{
-  padding-left: 8px;
 }
