@@ -134,7 +134,7 @@ textarea {
 	color: #5e9bfc;
 }
 .footer{
-    color: white;
+    color: black;
     font-size: 15px;
     font-family: "Noto Sans";
     padding-top: 20px;
@@ -142,7 +142,7 @@ textarea {
     text-align: center;
 }
 footer{
-    background-color: #031634;
+    background-color: white;
     bottom: 0px;
 }
 @keyframes ascend-1{
