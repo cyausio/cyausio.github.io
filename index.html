@@ -1,39 +1,107 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
     <meta charset="UTF-8">
-    <title>Cyausio</title>
-    <link rel="icon" type="image/ico" href="/assets/l.png">
+    <title>kshin2021</title>
+    <link rel="icon" type="image/ico" href="../assets/images/l.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        
     <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="/stylesheet.css" media="screen">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> <!--thing -->
-    <script src="http://code.jquery.com/jquery.min.js"></script><!--thing -->
-    
-    <link href="../assets/dropdown/jquery.sweet-dropdown.min.css" rel="stylesheet"><!--thing -->
-    <script src="../assets/dropdown/jquery.sweet-dropdown.min.js"></script><!--thing -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="../assets/style_css/navbar.css">
+    <link type="text/css" rel="stylesheet" href="assets/style_css/index.css">
   </head>
+
   <body>
-    <div class="main_menu">
-      <div class = "title">
-        <img src="/assets/l.png" alt="Cyausio" class="logo">
-      </div>
-      <div class = "nav">
+    <nav class="nav-side" id="no-padding">
+      <ul>
+          <li class="static-nav-open">Menu</li>
+          <li class="static-nav-current">Home</li>
+          <li class="nav-open-li"><a href="/services/apps.html">Apps</a></li>
+          <li class="nav-open-li"><a href="#">Sources</a></li>
+          <li class="nav-open-li"><a href="#">Calendar</a></li>
+          <li class="nav-open-li"><a href="../user/signin.html">Sign In</a></li>
+        </ul>
+        <a href="#" class="nav-toggle" id="no_"><i class="fa fa-bars" aria-hidden="true"></i></a>
+      </nav>
+    
+    <header>
+        <div>
+            <div class="animation">
+                <div class="square top"></div>
+                <div class="square middle"></div>
+                <div class="square bottom"></div>
+            </div>
+            <p class="intro">
+                Hello, welcome to <strong>cyaus.io</strong>
+                <br>You can find numerous projects, and coding material here
+                <br>In the future, there will also be numerous 2D games as well as other apps.
+                <br>This website is run by <strong>kshin2021</strong> and <strong>hist0134</strong>
+            </p>
+        </div>
+    </header>
+    <section>
+        <h1 class="about-title">About</h1>
         <table>
-          <tbody>
             <tr>
-              <td>
-                <a href="index.html" class="active">Home</a>
-              </td>
-              <td>
-                <a href="software.html" class="dormant">Software</a>
-              </td>
-              <td>
-                <a href="contacts.html" class="dormant">Contacts</a>
-              </td>
+                <td><img src="assets/images/hist0134.png" class="small"></td>
+                <td><p class="person-intro"><strong>hist0134</strong>, is a ...</p></td>
             </tr>
-          </tbody>
+            <tr>
+                <td><img src="assets/images/kshin2021.png" class="small"></td>
+                <td><p class="person-intro"><strong>kshin2021</strong>, is a student who learns C++ and C, and continues to develop in HTML and CSS. He is also known as <strong>Cyausio</strong> to others<br>He goes to Chadwick International in Songdo. <br>He is also a flat design enthusiast and spends his time designing creative things on his computer</p></td>
+            </tr>
+            <tr>
+                <td><img src="assets/images/code.png" class="small"></td>
+                <td><p class="person-intro"><strong>cyaus.io</strong> is where we put lecture information, <strong><a href="https://www.acmicpc.net/">acmicpc.net</a></strong> source codes, <br>and also we put up in progress projects</p></td>
+            </tr>
         </table>
-      </div>
-    </div>
+    </section>
+    <div class="line"></div>
+    <section class="contact">
+        <h1 class="contact-title">Contact</h1>
+        <div class="container">
+          <div class="row">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
+                  <form id="contact-form" class="form" action="#" method="POST" role="form">
+                      <div class="form-group">
+                          <label class="form-label" for="name">Your Name</label>
+                          <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1" required>
+                      </div>                            
+                      <div class="form-group">
+                          <label class="form-label" for="email">Your Email</label>
+                          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required>
+                      </div>                            
+                      <div class="form-group">
+                          <label class="form-label" for="subject">Subject</label>
+                          <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+                      </div>                            
+                      <div class="form-group">
+                          <label class="form-label" for="message">Message</label>
+                          <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Message..." tabindex="4" required></textarea>                                 
+                      </div>
+                      <div class="text-center">
+                          <button type="submit" class="btn btn-start-order">Send Message</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+        </div>
+    </section>
+    <footer>
+        <p class="footer">© 2016 Cyausio</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="assets/js/menu.js"></script>
   </body>
 </html>

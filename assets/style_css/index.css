@@ -1,0 +1,239 @@
+header{
+    text-align: center;
+    background-color: #e8ddcb;
+    width: 100%;
+    padding: 10em 1em 8em;
+    padding-bottom: 140px;
+    box-sizing: border-box;
+}
+.fa-bars{
+    color: black;
+}
+.intro{
+    font-family: "Noto Sans";
+    line-height: 200%;
+    transform: translateY(-10px);
+    opacity: 0;
+    animation: ascend-3 2s 1s 1 forwards;
+    -webkit-animation: ascend-3 2s 1s 1 forwards;
+}
+div.square{
+    height: 40px;
+    width: 40px;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+    -webkit-transform: rotate(-45deg) skew(15deg, 15deg);
+    position: absolute;
+}
+div.top{
+    background-color: #036564;
+    z-index: 5;
+    top: 190px;
+    left: 615px;/* 540px; */
+    animation: ascend-1 1.5s 1s 1 forwards;
+    -webkit-animation: ascend-1 1.5s 1s 1 forwards;
+}
+div.middle{
+    background-color: #033649;
+    z-index: 4;
+    top: 190px;
+    left: 615px;/* 690px; */
+    animation: ascend-2 1.5s 1s 1 forwards;
+    -webkit-animation: ascend-2 1.5s 1s 1 forwards;
+}
+div.bottom{
+    background-color: #031634;
+    z-index: 3;
+    top: 190px;
+}
+div.animation{
+    margin: auto;
+    width: 50px;
+    height: 80px;
+    margin-bottom: 50px;
+}
+h1.about-title{
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: "Noto Sans";
+    text-align: center;
+}
+img.small{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+p.person-intro{
+    font-family: "Noto Sans";
+    font-size:17px;
+    margin-right: 300px;
+    margin-bottom: 105px;
+}
+.line{
+    width: 1100px;
+    margin: auto;
+    background-color: black;
+    height: 2px;
+}
+section.contact{
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+h1.contact-title{
+    font-size: 40px;
+    font-family: "Noto Sans";
+    text-align: center;
+    color: black;
+}
+textarea {
+	resize: none;
+}
+.form-label {
+	font-size: 12px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #5e9bfc;
+}
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+	color: #999 
+}
+.btn-start-order {
+	background: 0 0 #ffffff;
+    border: 1px solid #2f323a;
+    border-radius: 3px;
+    color: #2f323a;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+	border-color: #5e9bfc;
+	color: #5e9bfc;
+}
+.footer{
+    color: white;
+    font-size: 15px;
+    font-family: "Noto Sans";
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+footer{
+    background-color: #031634;
+    bottom: 0px;
+}
+@keyframes ascend-1{
+    0%{
+        top: 190px;
+        left: 615px;
+    }
+    33%{
+        top: 190px;
+        left: 690px;
+    }
+    66%{
+        top: 160px;
+        left: 690px;
+    }
+    100%{
+        top: 160px;
+        left: 615px;
+    }
+}
+@keyframes ascend-2{
+    0%{
+        top: 190px;
+        left: 615px;
+    }
+    33%{
+        top: 190px;
+        left: 540px;
+    }
+    66%{
+        top: 175px;
+        left: 540px;
+    }
+    100%{
+        top: 175px;
+        left: 615px;
+    }
+}
+@keyframes ascend-3{
+    0%{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@-webkit-keyframes ascend-1{
+    0%{
+        top: 190px;
+        left: 615px;
+    }
+    33%{
+        top: 190px;
+        left: 690px;
+    }
+    66%{
+        top: 160px;
+        left: 690px;
+    }
+    100%{
+        top: 160px;
+        left: 615px;
+    }
+}
+@-webkit-keyframes ascend-2{
+    0%{
+        top: 190px;
+        left: 615px;
+    }
+    33%{
+        top: 190px;
+        left: 540px;
+    }
+    66%{
+        top: 175px;
+        left: 540px;
+    }
+    100%{
+        top: 175px;
+        left: 615px;
+    }
+}
+@-webkit-keyframes ascend-3{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-10px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+    }
+}
