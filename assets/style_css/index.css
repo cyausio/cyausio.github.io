@@ -133,18 +133,6 @@ textarea {
 	border-color: #5e9bfc;
 	color: #5e9bfc;
 }
-.footer{
-    color: black;
-    font-size: 15px;
-    font-family: "Noto Sans";
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-footer{
-    background-color: white;
-    bottom: 0px;
-}
 @keyframes ascend-1{
     0%{
         top: 190px;
