@@ -1,0 +1,154 @@
+/* CSS Styling for the Website Title */
+header{
+    text-align: center;
+    background-color: white;
+}
+h1.title_part1{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3.6vw;
+    color: #2C2F1D;
+    margin: 0px;
+    padding: 3.7vw 0px 3.7vw 0px;
+}
+span.title_part2{
+    font-weight: 100;
+    font-style: italic;
+    color: #72843E;
+}
+
+/* CSS Styling for Overall Container */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div.main_container{
+    /* top, right, bottom, left */
+    margin: 0px;
+    padding: 0px 16.5vw 0px 16.5vw;
+}
+grouped.table{
+    margin: 0px;
+    padding: 0px;
+}
+td.door{
+    margin: 0px;
+    padding: 0px;
+}
+td.tile_cell{
+    margin: 0px;
+    padding: 0px;
+}
+td.row{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+tr{
+    margin: 0px;
+    padding: 0px;
+    border: 0px; 
+}
+
+/* CSS Styling for "Door" Image */
+img.door_img{
+    width: 7vw;
+    height: auto;
+    padding: 0px 1vw 0px 0px;
+}
+
+/* Row #1 */
+img.c_s{
+    width: auto;
+    height: 7.7vw;
+    padding: 0px 3.9vw 0px 0px;
+    vertical-align: middle;
+}
+div.a-1{
+    width: 15vw;
+    height: 7.7vw;
+    background-color: #B8C26B;
+    margin: 0px 0.9vw 0px 0px;
+    padding: 0px;
+}
+div.a-2{
+    width: 9vw;
+    height: 7.7vw;
+    background-color: #EBEBEB;
+    padding: 0px;
+}
+
+/* Row #2 */
+img.g_h{
+    width: auto;
+    height: 9.5vw;
+    padding: 0px 1.3vw 0px 0px;
+    vertical-align: middle;
+}
+div.b-1{
+    width: 9.4vw;
+    height: 7.85vw;
+    background-color: #5C6C2D;
+    padding: 0px;
+    margin: 1.64vw 0.55vw 0px 0px;
+}
+div.b-2{
+    width: 8.36vw;
+    height: 7.85vw;
+    background-color: #B8C26B;
+    padding: 0px;
+    margin: 1.64vw 3.85vw 0px 0px;
+}
+div.b-3{
+    width: 14.1vw;
+    height: 7.85vw;
+    background-color: #EBEBEB;
+    padding: 0px;
+    margin: 1.64vw 0px 0px 0px;
+}
+
+/* Row #3 */
+div.third_row{
+    margin-top: 1.5vw;
+}
+img.herbs{
+    width: auto;
+    height: 5.345vw;
+    padding: 0px 1.3vw 0px 0px;
+    vertical-align: middle;
+}
+div.c-1{
+    width: 9.9vw;
+    height: 5.345vw;
+    padding: 0px;
+    background-color: #EBEBEB;
+    margin: 0px 0.61vw 0px 0px;
+}
+div.c-2{
+    width: 7.86vw;
+    height: 5.345vw;
+    padding: 0px;
+    background-color: #EBEBEB;
+}
+div.c-3{
+    
+}
+div.c-4{
+    
+}
+div.c-5{
+    
+}
+div.c-6{
+    
+}
+
+
+
+
+
+
+
+
+
+
