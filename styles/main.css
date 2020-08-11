@@ -47,7 +47,7 @@ td.row{
 tr{
     margin: 0px;
     padding: 0px;
-    border: 0px; 
+    border: 0px;
 }
 
 /* CSS Styling for "Door" Image */
@@ -56,6 +56,15 @@ img.door_img{
     height: auto;
     padding: 0px 1vw 2.8vw 0px;
 }
+
+/* CSS Styling for Address Texts */
+p.address{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1.1vw;
+  color: "#f0f0f0";
+}
+
 
 /* CSS Styling for Registering Button */
 div.button:hover{
