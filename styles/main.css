@@ -27,7 +27,7 @@ div.main_container{
     margin: 0px;
     padding: 0px 16.5vw 0px 16.5vw;
 }
-grouped.table{
+table.grouped{
     margin: 0px;
     padding: 0px;
 }
@@ -65,10 +65,19 @@ p.address{
   color: #f0f0f0;
   padding: 0px;
   margin: 0px;
-  text-align: center;
 }
 
+/* CSS Styling for Small print */
 
+p.small_print{
+  font-family:"Montserrat";
+  font-weight: 300;
+  font-size: 1.0vw;
+  font-style: italic;
+  color: #72843E;
+  margin: 0px;
+  padding: 1.2vw, 0vw, 0vw, 0vw;
+}
 
 /* CSS Styling for Registering Button */
 div.button:hover{
