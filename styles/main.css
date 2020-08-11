@@ -75,8 +75,8 @@ p#small_print{
   font-size: 1.0vw;
   font-style: italic;
   color: #72843E;
-  margin: 0px;
-  padding: 1.2vw, 0vw, 0vw, 0vw;
+  margin: 5.0vw, 0vw, 0vw, 0vw;
+  padding: 0.0vw;
 }
 
 /* CSS Styling for Registering Button */
