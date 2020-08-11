@@ -55,7 +55,7 @@ function handleResults(spreadsheetArray) {
     parseData(spreadsheetArray);
 }
 
-const parseData = (data) -> {
+const parseData = (data) => {
   for(i=1; i<data.length; i++){
     line = data[i].toString().split(",");
 
