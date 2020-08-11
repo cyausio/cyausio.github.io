@@ -69,7 +69,7 @@ p.address{
 
 /* CSS Styling for Small print */
 
-p.small_print{
+p#small_print{
   font-family:"Montserrat";
   font-weight: 300;
   font-size: 1.0vw;

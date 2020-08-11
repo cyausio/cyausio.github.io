@@ -60,6 +60,11 @@ const parseData = (data) => {
     line = data[i].toString().split(",");
 
     target = line[3].substring(1);
+
+    if (target == "c-3"){
+      document.getElementById("small_print").style.color = "white";
+    }
+
     console.log(target)
     document.getElementById(target).style.backgroundColor = "#f0f0f0";
   }
