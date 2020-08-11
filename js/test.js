@@ -60,7 +60,7 @@ const parseData = (data) => {
     line = data[i].toString().split(",");
 
     target = line[3].substring(1);
-    document.getElementsByClassName(target).style.backgroundColor="#f0f0f0";
+    document.getElementsByClassName(target).style.backgroundColor = "#f0f0f0";
   }
 }
 
