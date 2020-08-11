@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    var url_path = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRgSC1yRweXMwb3YagDHJ8q3JBcRqoKgeAVsdVlsrOdXIV7qtb9Xlzfsd0Eeo18wUlGCTqW65mg50Lr/pub?gid=347326324&sinsgle=true&output=csv";
+    var url_path = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQYP647FOGURUacX3nFKQ5VEd6bA_hl5uyKp7HazXKZt2UJK_FTwHjpnwoE3alJsvk3vXCakW43G1TA/pubhtml";
     
     /*
     var data_values = Papa.parse(url_path, {
