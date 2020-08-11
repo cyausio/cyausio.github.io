@@ -69,14 +69,22 @@ p.address{
 
 /* CSS Styling for Small print */
 
+div.boc{
+  height: 5.0vw;
+  width: 1.0vw;
+  margin: 0px;
+  padding: 0px;
+}
+
 p#small_print{
   font-family:"Montserrat";
   font-weight: 300;
-  font-size: 1.0vw;
+  font-size: 0.7vw;
   font-style: italic;
   color: #72843E;
-  margin: 5.0vw, 0vw, 0vw, 0vw;
-  padding: 0.0vw;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
 }
 
 /* CSS Styling for Registering Button */
