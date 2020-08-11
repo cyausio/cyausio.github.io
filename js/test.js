@@ -61,7 +61,7 @@ const parseData = (data) => {
 
     target = line[3].substring(1);
     console.log(target)
-    //document.getElementsByClassName(target).style.backgroundColor = "#f0f0f0";
+    document.getElementById(target).style.backgroundColor = "#f0f0f0";
   }
 }
 
