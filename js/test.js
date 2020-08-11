@@ -52,6 +52,16 @@ function doData(data) {
 // Do what ever you please with the final array
 function handleResults(spreadsheetArray) {
     console.log(spreadsheetArray);
+    parseData(spreadsheetArray);
+}
+
+const parseData = (data) -> {
+  for(i=1; i<data.length; i++){
+    line = data[i].toString().split(",");
+
+    target = line[3].substring(1);
+    document.getElementsByClassName(target).css("background-color", "#f0f0f0");
+  }
 }
 
 
